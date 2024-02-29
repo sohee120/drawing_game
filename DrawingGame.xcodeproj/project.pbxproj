@@ -19,9 +19,17 @@
 		0CE8E0922B58DD7200D0DFB3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0CE8E0912B58DD7200D0DFB3 /* RxCocoa */; };
 		0CE8E0942B58DD7200D0DFB3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 0CE8E0932B58DD7200D0DFB3 /* RxRelay */; };
 		0CE8E0962B58DD7200D0DFB3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0CE8E0952B58DD7200D0DFB3 /* RxSwift */; };
-		0CE8E09C2B58EC5C00D0DFB3 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E09B2B58EC5C00D0DFB3 /* Drawing.swift */; };
+		0CE8E09C2B58EC5C00D0DFB3 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E09B2B58EC5C00D0DFB3 /* Drawable.swift */; };
 		0CE8E09E2B58EC6C00D0DFB3 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E09D2B58EC6C00D0DFB3 /* DrawingView.swift */; };
 		0CE8E0A02B58EC7900D0DFB3 /* DrawingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E09F2B58EC7900D0DFB3 /* DrawingViewModel.swift */; };
+		0CE8E0A22B59003200D0DFB3 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E0A12B59003200D0DFB3 /* CanvasViewController.swift */; };
+		0CE8E0CA2B5FDC5E00D0DFB3 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E0C92B5FDC5E00D0DFB3 /* Path.swift */; };
+		0CE8E0CC2B5FDCF800D0DFB3 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E0CB2B5FDCF800D0DFB3 /* Point.swift */; };
+		0CE8E0CE2B5FDDAD00D0DFB3 /* MutatingDrawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E0CD2B5FDDAD00D0DFB3 /* MutatingDrawable.swift */; };
+		0CE8E0D02B5FDDE300D0DFB3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E0CF2B5FDDE300D0DFB3 /* Color.swift */; };
+		0CE8E0D22B5FE0D100D0DFB3 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E0D12B5FE0D100D0DFB3 /* Canvas.swift */; };
+		0CE8E0D42B5FE30D00D0DFB3 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E0D32B5FE30D00D0DFB3 /* CanvasViewModel.swift */; };
+		0CE8E0D62B5FE4A400D0DFB3 /* UIColor+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8E0D52B5FE4A400D0DFB3 /* UIColor+random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +63,17 @@
 		0CE8E07D2B58DD5700D0DFB3 /* DrawingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE8E0812B58DD5700D0DFB3 /* DrawingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingGameUITests.swift; sourceTree = "<group>"; };
 		0CE8E0832B58DD5700D0DFB3 /* DrawingGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0CE8E09B2B58EC5C00D0DFB3 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		0CE8E09B2B58EC5C00D0DFB3 /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
 		0CE8E09D2B58EC6C00D0DFB3 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		0CE8E09F2B58EC7900D0DFB3 /* DrawingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewModel.swift; sourceTree = "<group>"; };
+		0CE8E0A12B59003200D0DFB3 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		0CE8E0C92B5FDC5E00D0DFB3 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		0CE8E0CB2B5FDCF800D0DFB3 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		0CE8E0CD2B5FDDAD00D0DFB3 /* MutatingDrawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutatingDrawable.swift; sourceTree = "<group>"; };
+		0CE8E0CF2B5FDDE300D0DFB3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0CE8E0D12B5FE0D100D0DFB3 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		0CE8E0D32B5FE30D00D0DFB3 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		0CE8E0D52B5FE4A400D0DFB3 /* UIColor+random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+random.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +137,8 @@
 				0CE8E0692B58DD5600D0DFB3 /* Assets.xcassets */,
 				0CE8E06B2B58DD5600D0DFB3 /* LaunchScreen.storyboard */,
 				0CE8E06E2B58DD5600D0DFB3 /* Info.plist */,
+				0CE8E0A12B59003200D0DFB3 /* CanvasViewController.swift */,
+				0CE8E0D52B5FE4A400D0DFB3 /* UIColor+random.swift */,
 			);
 			path = DrawingGame;
 			sourceTree = "<group>";
@@ -145,7 +163,12 @@
 		0CE8E0972B58EC1000D0DFB3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0CE8E09B2B58EC5C00D0DFB3 /* Drawing.swift */,
+				0CE8E09B2B58EC5C00D0DFB3 /* Drawable.swift */,
+				0CE8E0C92B5FDC5E00D0DFB3 /* Path.swift */,
+				0CE8E0CB2B5FDCF800D0DFB3 /* Point.swift */,
+				0CE8E0CD2B5FDDAD00D0DFB3 /* MutatingDrawable.swift */,
+				0CE8E0CF2B5FDDE300D0DFB3 /* Color.swift */,
+				0CE8E0D12B5FE0D100D0DFB3 /* Canvas.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				0CE8E09F2B58EC7900D0DFB3 /* DrawingViewModel.swift */,
+				0CE8E0D32B5FE30D00D0DFB3 /* CanvasViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -305,12 +329,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CE8E09C2B58EC5C00D0DFB3 /* Drawing.swift in Sources */,
+				0CE8E09C2B58EC5C00D0DFB3 /* Drawable.swift in Sources */,
 				0CE8E0652B58DD5500D0DFB3 /* ViewController.swift in Sources */,
+				0CE8E0D02B5FDDE300D0DFB3 /* Color.swift in Sources */,
+				0CE8E0D42B5FE30D00D0DFB3 /* CanvasViewModel.swift in Sources */,
+				0CE8E0D62B5FE4A400D0DFB3 /* UIColor+random.swift in Sources */,
 				0CE8E09E2B58EC6C00D0DFB3 /* DrawingView.swift in Sources */,
+				0CE8E0CA2B5FDC5E00D0DFB3 /* Path.swift in Sources */,
+				0CE8E0CE2B5FDDAD00D0DFB3 /* MutatingDrawable.swift in Sources */,
 				0CE8E0612B58DD5500D0DFB3 /* AppDelegate.swift in Sources */,
+				0CE8E0CC2B5FDCF800D0DFB3 /* Point.swift in Sources */,
 				0CE8E0632B58DD5500D0DFB3 /* SceneDelegate.swift in Sources */,
+				0CE8E0A22B59003200D0DFB3 /* CanvasViewController.swift in Sources */,
 				0CE8E0A02B58EC7900D0DFB3 /* DrawingViewModel.swift in Sources */,
+				0CE8E0D22B5FE0D100D0DFB3 /* Canvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,8 +525,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,8 +553,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
