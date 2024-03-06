@@ -14,6 +14,9 @@ final class CanvasViewController: UIViewController {
     private var cancellables = Set<AnyCancellable>()
     private let elementsLayer = CAShapeLayer()
     
+    @IBOutlet var DrawingView: UIView!
+    @IBOutlet var whiteButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
@@ -21,9 +24,10 @@ final class CanvasViewController: UIViewController {
     }
     
     private func setupViews() {
-        view.layer.addSublayer(elementsLayer)
-//        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapped)))
-        view.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(didPanned)))
+        whiteButton.layer.borderWidth = 1.0
+        whiteButton.layer.borderColor = CGColor.init(red: 0, green: 0, blue: 0, alpha: 1)
+        DrawingView.layer.addSublayer(elementsLayer)
+        DrawingView.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(didPanned)))
     }
     
     private func bind() {
@@ -47,17 +51,6 @@ final class CanvasViewController: UIViewController {
             .store(in: &cancellables)
     }
     
-//    @objc func buttonPressed() {
-//        viewModel.pathColor =
-//        }
-
-//    @objc
-//    private func didTapped(sender: UITapGestureRecognizer) {
-//        let point = sender.location(in: view)
-//        viewModel.didTapped(point: point)
-//    }
-    
-    
     @IBAction func touchColor(_ sender: UIButton) {
         guard let color = sender.titleLabel!.text else {return}
         
@@ -70,15 +63,10 @@ final class CanvasViewController: UIViewController {
         case "purple": viewModel.pathColor = Color.purpleColor
         case "pink": viewModel.pathColor = Color.pinkColor
         case "brown": viewModel.pathColor = Color.brownColor
-            print(color)
         case "gray": viewModel.pathColor = Color.grayColor
-            print(color)
-            print(viewModel.pathColor)
         case "white": viewModel.pathColor = Color.whiteColor
-            print(color)
             print(viewModel.pathColor)
         case "black": viewModel.pathColor = Color.blackColor
-            print(color)
         default:
             viewModel.pathColor = Color.blackColor
         }
